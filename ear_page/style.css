@@ -1,0 +1,132 @@
+body{
+        background-color: #F0F7FD;
+
+}
+
+
+.navbar-logo img{
+                width: 150px;
+}
+
+.dropbtn, .contact-us{
+        border: none;
+        background-color: transparent;
+        color: #031B4E;
+        font-weight: 600;
+    }
+
+.dropdown-menu{
+
+        border-top: 2px solid #3368C6;
+        background-color: #FFFFFF;
+}
+
+.dropdown-toggle::after{
+        display: inline-block;
+        margin-left: 20px;
+        vertical-align: 2px;
+        content: "";
+        border: 4px solid #3368C6;
+        border-radius: 50%;
+}
+
+.dropdown-menu[data-bs-popper]{
+        top: 130%;
+        left: 0px;
+        margin-top: 0.125rem;
+}
+
+.nav-search-span{
+        position: relative;
+}
+
+#nav-search-box{
+        position: relative;
+        width: 300px;
+        height: 60px;
+        padding: 0 32px 0 20px;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+}
+
+.nav-search-icon{
+        position: absolute;
+        top: 5px;
+        right: 6px;
+        border-radius: 50%;
+        background-color: #3368C6;
+        width: 50px;
+        padding: 10px;
+}
+
+
+.footer{
+        background-color: #FFFFFF;
+        background-image: url('assets/images/footer.jpg');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+}
+
+.footer-left{
+        color: #031B4E;
+        padding-top: 100px;
+}
+
+.logo-footer{
+        height: 55px;
+}
+
+.social-icon{
+        font-size: 20px;
+        border-radius: 50%;
+        padding: 6px;
+        border: 1px solid #031B4E;
+}
+.social-icon:hover{
+        background-color: #3368C6;
+}
+
+.social-icon img{
+        width: 20px;
+}
+
+.footer-right{
+        color: #031B4E;
+        padding-top: 100px;
+}
+
+.heading-footer-links{
+        color: #3368C6;
+}
+
+
+
+@media ( max-width: 520px ){
+        .navbar-logo
+                img{
+                        width: 110px;
+}
+        #nav-search-box{
+                
+                width: 340px;
+               
+        }
+        
+        .nav-search-icon{
+             
+                top: -18px;
+                right: 6px;
+                
+        }
+
+        .footerP{
+                background-position: bottom;
+        }
+        .footer-right{
+                        padding-top: 20px;
+                }
+                .footer-left{
+                        padding-top: 20px;
+                }
+}
